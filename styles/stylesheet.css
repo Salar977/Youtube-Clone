@@ -10,8 +10,8 @@
 }
 
 .video-title {
-    width: 250px;
     cursor: pointer;
+    margin-top: 0;
 }
 
 .video-author {
@@ -23,4 +23,24 @@
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+}
+
+.channel-picture {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
 }
