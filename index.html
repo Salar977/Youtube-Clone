@@ -5,49 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
     <link rel="icon" href="./images/Youtube.ico">
-    <style>
-        .thumbnail {
-            width: 300px;
-            display: block;
-            cursor: pointer;
-        }
-
-        .search-bar {
-            font-size: 30px;
-            display: block;
-        }
-
-        .video-title {
-            width: 250px;
-            cursor: pointer;
-        }
-
-        .video-author {
-            cursor: pointer;
-        }
-
-        .video-preview {
-            width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles/stylesheet.css">
 </head>
 <body>
     <input class="search-bar" type="text" placeholder="Search">
 
     <div class="video-preview">
-
+      <div class="thumbnail-row">
         <img class="thumbnail"
              src="./images/thumbnails/thumbnail-1.webp"
              alt="picture of Marques Brownlee and Sundar Pichai">
-
-        <p class="video-title">
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture"
+               src="./images/channel-pictures/channel-1.jpeg"
+               alt="channel 1 picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
-        </p>
-        <p class="video-author">Marques Brownlee</p>
-        <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+       </div>
     </div>
 
     <div class="video-preview">
