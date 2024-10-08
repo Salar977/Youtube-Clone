@@ -1,0 +1,26 @@
+.thumbnail {
+    width: 300px;
+    display: block;
+    cursor: pointer;
+}
+
+.search-bar {
+    font-size: 30px;
+    display: block;
+}
+
+.video-title {
+    width: 250px;
+    cursor: pointer;
+}
+
+.video-author {
+    cursor: pointer;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
