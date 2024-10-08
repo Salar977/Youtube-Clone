@@ -1,3 +1,7 @@
+p {
+    font-family: Roboto, Arial;
+}
+
 .thumbnail {
     width: 300px;
     display: block;
@@ -12,6 +16,8 @@
 .video-title {
     cursor: pointer;
     margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .video-author {
