@@ -1,4 +1,4 @@
-.thumbnail-row {
+.thumbnail-container {
     margin-bottom: 8px;
     position: relative;
 }
@@ -62,5 +62,6 @@
 .video-info-grid {
     display: grid;
     grid-template-columns: 48px 1fr;
+    margin-top: 12px;
 }
 
