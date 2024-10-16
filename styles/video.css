@@ -1,9 +1,25 @@
-
+.thumbnail-row {
+    margin-bottom: 12px;
+    position: relative;
+}
 
 .thumbnail {
     width: 100%;
     display: block;
     cursor: pointer;
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
 }
 
 .video-title {
@@ -42,10 +58,6 @@
 .profile-picture {
     width: 40px;
     border-radius: 50px;
-}
-
-.thumbnail-row {
-    margin-bottom: 12px;
 }
 
 .video-info-grid {
