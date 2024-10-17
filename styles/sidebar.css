@@ -30,3 +30,24 @@
     margin-top: 6px;
     font-size: 10px;
 }
+
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .sidebar-link p {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+
+    body {
+        padding-left: 220px;
+    }
+
+    .sidebar-link {
+        flex-direction: row;
+        justify-content: start;
+        padding-left: 20px;
+    }
+}
