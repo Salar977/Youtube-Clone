@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
 
-    <link rel="icon" href="./images/Youtube.ico">
-    <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/video.css">
-    <link rel="stylesheet" href="./styles/sidebar.css">
+  <link rel="icon" href="./images/Youtube.ico">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/video.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-          rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <div class="header">
+  <header class="header">
     <div class="left-section">
       <img class="hamburger-menu" src="./images/icons/hamburger-menu.svg" alt="hamburger menu">
       <img class="youtube-logo" src="./images/icons/youtube-logo.svg" alt="Youtube logo">
@@ -30,10 +31,8 @@
         <div class="tooltip">Search</div>
       </button>
       <button class="voice-search-bnt">
-        <img class="voice-search-icon"
-             src="./images/icons/voice-search-icon.svg"
-             alt="voice-search-icon">
-          <div class="tooltip">Search with your voice</div>
+        <img class="voice-search-icon" src="./images/icons/voice-search-icon.svg" alt="voice-search-icon">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
@@ -52,10 +51,9 @@
       </div>
       <img class="current-user-picture" src="./images/channel-pictures/Salar.jpg" alt="profile-picture">
     </div>
-    
-  </div>
-    
-  <div class="sidebar">
+  </header>
+
+  <nav class="sidebar">
     <div class="sidebar-link">
       <img src="./images/icons/home.svg" alt="home sidebar link icon">
       <p>Home</p>
@@ -80,49 +78,48 @@
       <img src="./images/icons/library.svg" alt="library sidebar link icon">
       <p>Library</p>
     </div>
-  </div>
+  </nav>
 
-  <div class="video-grid">
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-          <img class="thumbnail"
-              src="./images/thumbnails/thumbnail-1.webp">
-        </a>
-        <div class="video-time">14:20</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-profile-pic-container">
-          <a href="https://www.youtube.com/c/mkbhd">
-            <img src="./images/channel-pictures/channel-1.jpeg">
+  <main>
+    <section class="video-grid">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-1.webp">
           </a>
-          <div class="tooltip">
-            <div class="tooltip-img">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-profile-pic-container">
+            <a href="https://www.youtube.com/c/mkbhd">
               <img src="./images/channel-pictures/channel-1.jpeg">
-          </div>
-            <div class="tooltip-profile-info">
-              <p class="tooltip-video-author">Marques Brownlee</p>
-              <p class="tooltip-video-stats">19.6M subscribers</p>
+            </a>
+            <div class="tooltip">
+              <div class="tooltip-img">
+                <img src="./images/channel-pictures/channel-1.jpeg">
+              </div>
+              <div class="tooltip-profile-info">
+                <p class="tooltip-video-author">Marques Brownlee</p>
+                <p class="tooltip-video-stats">19.6M subscribers</p>
+              </div>
             </div>
           </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="channel-name">
+              <a class="channel-link" href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a>
+            </p>
+            <p class="video-stats">4.3M views &#183; 3 years ago</p>
+          </div>
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="channel-name">
-            <a class="channel-link" href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a>
-          </p>
-          <p class="video-stats">4.3M views &#183; 3 years ago</p>
-        </div>
-        </div>
-    </div>
+      </div>
 
-    <div class="video-card">
+      <div class="video-card">
         <div class="thumbnail-container">
           <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
-            <img class="thumbnail"
-                src="./images/thumbnails/thumbnail-2.webp">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-2.webp">
           </a>
           <div class="video-time">8:22</div>
         </div>
@@ -134,7 +131,7 @@
             <div class="tooltip">
               <div class="tooltip-img">
                 <img src="./images/channel-pictures/channel-2.jpeg">
-            </div>
+              </div>
               <div class="tooltip-profile-info">
                 <p class="tooltip-video-author">Markplier</p>
                 <p class="tooltip-video-stats">37M subscribers</p>
@@ -150,16 +147,15 @@
             </p>
             <p class="video-stats">21M views &#183; 7 years ago</p>
           </div>
-          </div>
+        </div>
       </div>
 
       <div class="video-card">
         <div class="thumbnail-container">
           <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
-            <img class="thumbnail"
-                src="./images/thumbnails/thumbnail-3.webp">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-3.webp">
           </a>
-            <div class="video-time">9:13</div>
+          <div class="video-time">9:13</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-profile-pic-container">
@@ -169,7 +165,7 @@
             <div class="tooltip">
               <div class="tooltip-img">
                 <img src="./images/channel-pictures/channel-3.jpeg">
-            </div>
+              </div>
               <div class="tooltip-profile-info">
                 <p class="tooltip-video-author">SSSniperWolf</p>
                 <p class="tooltip-video-stats">34.6M subscribers</p>
@@ -185,113 +181,112 @@
             </p>
             <p class="video-stats">14M views &#183; 4 years ago</p>
           </div>
-          </div>
+        </div>
       </div>
-  
-      <div class="video-card">
-          <div class="thumbnail-container">
-            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
-              <img class="thumbnail"
-                  src="./images/thumbnails/thumbnail-4.webp">
-            </a>
-            <div class="video-time">22:09</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-profile-pic-container">
-              <a href="https://www.youtube.com/c/veritasium">
-                <img src="./images/channel-pictures/channel-4.jpeg">
-              </a>
-              <div class="tooltip">
-                <div class="tooltip-img">
-                  <img src="./images/channel-pictures/channel-4.jpeg">
-              </div>
-                <div class="tooltip-profile-info">
-                  <p class="tooltip-video-author">Veritasium</p>
-                  <p class="tooltip-video-stats">16.4M subscribers</p>
-                </div>
-              </div>
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Simplest Math Problem No One Can Solve - Collatz Conjecture
-              </p>
-              <p class="channel-name">
-                <a class="channel-link" href="https://www.youtube.com/c/veritasium">Veritasium</a>
-              </p>
-              <p class="video-stats">41M views &#183; 3 years ago</p>
-            </div>
-            </div>
-        </div>
 
-        <div class="video-card">
-          <div class="thumbnail-container">
-            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-              <img class="thumbnail"
-                  src="./images/thumbnails/thumbnail-5.webp">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-4.webp">
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-profile-pic-container">
+            <a href="https://www.youtube.com/c/veritasium">
+              <img src="./images/channel-pictures/channel-4.jpeg">
             </a>
-            <div class="video-time">11:17</div>
+            <div class="tooltip">
+              <div class="tooltip-img">
+                <img src="./images/channel-pictures/channel-4.jpeg">
+              </div>
+              <div class="tooltip-profile-info">
+                <p class="tooltip-video-author">Veritasium</p>
+                <p class="tooltip-video-stats">16.4M subscribers</p>
+              </div>
+            </div>
           </div>
-          <div class="video-info-grid">
-            <div class="channel-profile-pic-container">
-              <a href="https://www.youtube.com/c/CSDojo">
+          <div class="video-info">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="channel-name">
+              <a class="channel-link" href="https://www.youtube.com/c/veritasium">Veritasium</a>
+            </p>
+            <p class="video-stats">41M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-5.webp">
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-profile-pic-container">
+            <a href="https://www.youtube.com/c/CSDojo">
+              <img src="./images/channel-pictures/channel-5.jpeg">
+            </a>
+            <div class="tooltip">
+              <div class="tooltip-img">
                 <img src="./images/channel-pictures/channel-5.jpeg">
-              </a>
-              <div class="tooltip">
-                <div class="tooltip-img">
-                  <img src="./images/channel-pictures/channel-5.jpeg">
               </div>
-                <div class="tooltip-profile-info">
-                  <p class="tooltip-video-author">CS Dojo</p>
-                  <p class="tooltip-video-stats">1.94M subscribers</p>
-                </div>
+              <div class="tooltip-profile-info">
+                <p class="tooltip-video-author">CS Dojo</p>
+                <p class="tooltip-video-stats">1.94M subscribers</p>
               </div>
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
-              </p>
-              <p class="channel-name">
-                <a class="channel-link" href="https://www.youtube.com/c/CSDojo">CS Dojo</a>
-              </p>
-              <p class="video-stats">715K views &#183; 8 years ago</p>
-            </div>
-            </div>
-        </div>
-    
-        <div class="video-card">
-            <div class="thumbnail-container">
-              <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-                <img class="thumbnail"
-                    src="./images/thumbnails/thumbnail-6.webp">
-              </a>
-              <div class="video-time">19:59</div>
-            </div>
-            <div class="video-info-grid">
-              <div class="channel-profile-pic-container">
-                <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
-                  <img src="./images/channel-pictures/channel-6.jpeg">
-                </a>
-                <div class="tooltip">
-                  <div class="tooltip-img">
-                    <img src="./images/channel-pictures/channel-6.jpeg">
-                </div>
-                  <div class="tooltip-profile-info">
-                    <p class="tooltip-video-author">MrBeast</p>
-                    <p class="tooltip-video-stats">320M subscribers</p>
-                  </div>
-                </div>
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I'll Pay For
-              </p>
-              <p class="channel-name">
-                <a class="channel-link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">MrBeast</a>
-              </p>
-              <p class="video-stats">298M views &#183; 4 years ago</p>
             </div>
           </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="channel-name">
+              <a class="channel-link" href="https://www.youtube.com/c/CSDojo">CS Dojo</a>
+            </p>
+            <p class="video-stats">715K views &#183; 8 years ago</p>
+          </div>
         </div>
-  </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            <img class="thumbnail" src="./images/thumbnails/thumbnail-6.webp">
+          </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-profile-pic-container">
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+              <img src="./images/channel-pictures/channel-6.jpeg">
+            </a>
+            <div class="tooltip">
+              <div class="tooltip-img">
+                <img src="./images/channel-pictures/channel-6.jpeg">
+              </div>
+              <div class="tooltip-profile-info">
+                <p class="tooltip-video-author">MrBeast</p>
+                <p class="tooltip-video-stats">320M subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+            <p class="channel-name">
+              <a class="channel-link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">MrBeast</a>
+            </p>
+            <p class="video-stats">298M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
